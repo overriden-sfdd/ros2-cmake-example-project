@@ -24,5 +24,5 @@ def generate_launch_description():
     )
 
     # Add the nodes and the process to the LaunchDescription list
-    ld = [firstcpp_node, secondcpp_node]
+    ld = [firstcpp_node, secondcpp_node, plotter_node]
     return LaunchDescription(ld)
